@@ -8,7 +8,7 @@ Output :
 
 Model Invocations : 
 
-curl --request POST http://127.0.0.1:<port>/invocations \
+curl --request POST http://127.0.0.1:port/invocations \
        --header "Content-Type:application/json; format=pandas-split" \
        --data '{
     "columns":["age", "sex", "bmi", "bp", "s1", "s2", "s3", "s4", "s5", "s6"],
